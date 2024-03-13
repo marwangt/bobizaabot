@@ -7,26 +7,23 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = ""
-
 global.owner = [
-  ['212717457920', 'bobiza', true],
-
-  ['212717457920','bobiza', true],
-  ['212717457920'],
-  ['212717457920']
+  ['‪212657035661', '🌨️ MR_OKIJI ', true],
+  ['212657035661', ' ICE ❄️', true],
 ];
 
-global.suittag = ['212717457920'];
-global.prems = ['212717457920'];
+global.xaxa = 'kana'
+global.suittag = ['212657035661', '212657035661'];
+global.prems = ['212657035661', '212657035661'];
 
-global.packname = 'bobiza bot';
-global.author = 'bobiza';
-global.wm = 'bobiza';
-global.titulowm = 'bobiza';
-global.titulowm2 = `bobiza`
-global.igfg = 'bobiza';
-global.wait = '*|🏃| loading...*\n*نحاول تلبية طلبكم لا تستعجلوا* ♥\ninstagram.com/noureddine_ouafy';
+global.packname = '『𝑅𝐼𝑇𝐴🌸𝐵𝛩𝑇』 ';
+global.author = '★𝑹𝑰𝑻𝑨🌸★';
+global.wm = '★𝑹𝑰𝑻𝑨 𝑩𝑶𝑻★';
+global.titulowm = '𝑹𝑰𝑻𝑨';
+global.titulowm2 = `𝑹𝑰𝑻𝑨`
+global.igfg = '𝑹𝑰𝑻𝑨';
+global.wait = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
+
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
@@ -38,22 +35,22 @@ global.mods = [];
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
-global.locale = 'en';
+global.locale = 'ar';
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
-global.fecha = d.toLocaleDateString('en', {day: 'numeric', month: 'numeric', year: 'numeric'});
-global.mes = d.toLocaleDateString('en', {month: 'long'});
-global.año = d.toLocaleDateString('en', {year: 'numeric'});
+global.fecha = d.toLocaleDateString('ar', {day: 'numeric', month: 'numeric', year: 'numeric'});
+global.mes = d.toLocaleDateString('ar', {month: 'long'});
+global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nBOBIZA`;
-global.gt = 'BOBIZA';
-global.mysticbot = 'The BOBIZA';
-global.md = 'https://instagram.com/noureddine_ouafy';
-global.mysticbot = 'https://instagram.com/noureddine_ouafy';
-global.waitt = '*[ ⏳ ] LOADING...*';
-global.waittt = '*[ ⏳ ] LOADING...*';
-global.waitttt = '*[ ⏳ ] LOADING...*';
-global.nomorown = '212605784394';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`;
+global.gt = '★MR_OKIJI★';
+global.mysticbot = '★MR_OKIJI★';
+global.md = 'https://chat.whatsapp.com/FE54Nj3CorLAcuEzpXZHA7';
+global.mysticbot = 'https://chat.whatsapp.com/FE54Nj3CorLAcuEzpXZHA7';
+global.waitt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
+global.waittt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
+global.waitttt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
+global.nomorown = '212657035661';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -68,8 +65,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
-global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
+global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; // Asia/Jakarta
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;// America/Los_Angeles
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
@@ -87,3 +84,6 @@ watchFile(file, () => {
   console.log(chalk.redBright('Update \'config.js\''));
   import(`${file}?update=${Date.now()}`);
 });
+global.veeeee =  212657035661
+
+  
